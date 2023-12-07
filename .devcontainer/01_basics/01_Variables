@@ -1,8 +1,20 @@
-const accountId = 1234
+/*const accountId = 1234
 let accountEmail = "hritik@gmail.com"
 var accountPassword = "12345"
 accountCity = "Nashik"
 
 
 
+
 console.table([accountId, accountEmail, accountPassword, accountCity]);
+
+*/
+let userOne = {
+    email : "Userone@gmail.com",
+    Upi : "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "Hriitk@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
