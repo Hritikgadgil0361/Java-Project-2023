@@ -1,0 +1,22 @@
+const mHeros = [ "Thor","Cap","ironman"]
+const Dc = ["superman","batman","joker"]
+//mHeros.push(Dc) // will put array inside arry
+//console.log(mHeros)
+
+mHeros.concat(Dc)  //Combines two arrays and gives one new array
+const AllHeros = mHeros.concat(Dc) 
+//console.log(AllHeros)
+
+const all_new_heros = [...mHeros, ...Dc] // also add all arrays which are proveded in[] in one single arry
+//console.log(all_new_heros)
+ 
+const new_array  = [123, 34,2, [23,3,3] ,3,4,[3,5,[56,33]]] // gives all array which are inside another array as a one single arry
+//console.log(new_array.flat(Infinity))
+
+//console.log(Array.from("Hritik")) //Will change any type into array
+let score1 = 100
+let score2 =200
+let score3 =300
+
+console.log(Array.of(score1 , score2, score3)) // writes a new array from the set of all elements 
+
