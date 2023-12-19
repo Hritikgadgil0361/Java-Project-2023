@@ -1,0 +1,34 @@
+/*if (2 === "2"){    // TO check data type as well use ===
+    console.log("Executd")
+}*/
+
+/*const temp = 30
+if (temp < 40){
+    console.log("temp is less than 40")
+}
+else{
+    console.log("temp is greater than 40")
+}*/
+
+/*const score = 200
+if( score > 100){
+    const  power = "fly"
+    console.log('user power : ${power}');
+}*/
+
+//implesite scope
+/*const balance = 5000
+if(balance >700) console.log("test");*/
+
+
+const userloggedin = true
+const creditcard =true
+const loggedinfromgoogle = false
+const loggedinfromemail = true
+if(userloggedin && creditcard){   // for and condition
+    console.log("allowed")
+}
+
+if (loggedinfromemail || loggedinfromgoogle){  // used to check any of the one is true or not (OR condition)
+    console.log("Allowed2")
+}
